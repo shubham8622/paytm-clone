@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    button.owl-prev {
+        position: absolute;
+        left: 60px;
+        top: 110px;
+        /* background-color: red; */
+    }
+    
+    button span {
+        font-size: 30px;
+        background: #66d6ff;
+        padding: 0px 14px;
+        border-radius: 50px;
+    }
+    
+    button.owl-prev {
+        text-align: center;
+    }
+    
+    button.owl-next {
+        position: absolute;
+        top: 110px;
+        right: 55px;
+    }
+    button{
+        display:block;
+    }
+    /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00baf2;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
